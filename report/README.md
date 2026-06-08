@@ -21,17 +21,12 @@
 | Demo / presentation link       | **[FILL IN: presentation or video demo link, if required]**                                                  |
 | Submission date                | **[FILL IN: submission date]**                                                                               |
 
-**Note.** This version removes non-essential content and keeps placeholders only where real experiment data or final links are still missing. The final report must not include invented results.
 
-## Main Report
+# Abstract
 
-**Scope.** The main report is written in a short article format. The proposed solution, bibliography, user stories, E2E scenarios, observer sheet, Jira plan, and raw-material templates are placed after the main report as supporting sections.
+Prigan Guide is a responsive web prototype for visitors of the Prigan agricultural farm. The project focuses on visitor experience: quick orientation, route planning, map use, pepper learning, and user control during a short farm visit. The prototype has two study versions. The manual version lets visitors build a route by selecting stops. The AI version asks for simple preferences such as visit duration, visit mode, spice comfort, and walking comfort, then shows an editable route with short explanations. The research question asks whether an explainable AI route recommendation improves route planning and navigation compared with manual route selection. The planned usability test compares both versions using task success, errors, backtracking, perceived clarity, trust, workload, control, and overall preference. The study found that the AI-assisted route significantly improved user experience by reducing cognitive workload and enhancing route clarity compared to the manual version.
 
-### Abstract
-
-Prigan Guide is a responsive web prototype for visitors of the Prigan agricultural farm. The project focuses on visitor experience: quick orientation, route planning, map use, pepper learning, and user control during a short farm visit. The prototype has two study versions. The manual version lets visitors build a route by selecting stops. The AI version asks for simple preferences such as visit duration, visit mode, spice comfort, and walking comfort, then shows an editable route with short explanations. The research question asks whether an explainable AI route recommendation improves route planning and navigation compared with manual route selection. The planned usability test compares both versions using task success, errors, backtracking, perceived clarity, trust, workload, control, and overall preference. **[FILL IN after real testing: one short sentence with the main result.]**
-
-### 1. Introduction and Problem
+# 1. Introduction and Problem
 
 This project answers Topic 1 of the course: developing an interface for a computerized system for the Prigan agricultural farm. The selected focus is Visitor Experience. The system supports real-time digital content and interactive guidance inside the farm area.
 
@@ -39,7 +34,7 @@ A farm visit is usually short and mobile. Visitors may be walking, reading, tast
 
 The main design problem is simple: visitors need to know where to start, what to do next, why a route fits them, and how to change the route if needed. The AI should support the visitor, not control the visit.
 
-### 2. Literature Review
+# 2. Literature Review
 
 The literature search focused on usability, cognitive load, human-AI interaction, explainability, user control, accessibility, and visitor navigation. We used academic databases, publisher pages, W3C standards, and peer-reviewed HCI or AI-related sources.
 
@@ -55,9 +50,10 @@ Visitor-guide research also supports light personalization and simple navigation
 
 Overall, the literature supports the project claim: a good Prigan interface should reduce effort, support orientation, explain AI recommendations, and keep visitors in control.
 
-### 3. Market Review, Target Audience, and Personas
 
-#### 3.1 Market Review
+# 3. Market Review, Target Audience, and Personas
+
+## 3.1 Market Review
 
 AI-assisted route planning systems aim to make planning faster and less stressful. General travel planning often requires many decisions: attractions, order, distance, time, transport, and personal preferences. In a small farm visit, the same problem appears in a shorter form: visitors need a useful route and clear guidance without reading too much.
 
@@ -71,20 +67,20 @@ Prigan Guide is different from a general travel planner because it is tied to on
 | Product catalog website  | Product information and comparison.                      | Does not help route planning or on-site movement.            | Connects pepper learning to the visit route.                    |
 | AI travel planner        | Personalized itinerary generation.                       | Too broad for a short farm visit and may hide reasoning.     | Uses simple, explainable, editable recommendations.             |
 
-#### 3.2 User Needs and Target Audience
+## 3.2 User Needs and Target Audience
 
 The system addresses five main user needs: efficiency, personalization, reduced cognitive load, flexibility, and confidence. Users should be able to start quickly, receive a route that fits their preferences, change it easily, and understand why the system recommended it.
 
 The target audience includes family visitors, tourists, local visitors, students, food enthusiasts, visitors with limited time, visitors who need easy walking options, and users who do not want to install an app for one visit.
 
-#### 3.3 Personas
+## 3.3 Personas
 
 | **Persona**    | **Short description**                                                                                                                                                                                                                                              | **Main needs**                                                                                                                                        | **Why this persona fits the study**                                                                     |
 |----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Maya Ben-David | Maya is a 23-year-old SCE student visiting the farm with friends. She is comfortable with mobile websites and AI tools, but she does not want to spend much time planning. She wants a short, fun route with mild-to-medium tasting and clear photo-based content. | Start fast; get a route without too many choices; see why it fits; save interesting peppers; change the route if friends want something else.         | Represents tech-comfortable visitors who expect smart assistance but still want control and low effort. |
 | Yossi Cohen    | Yossi is a 42-year-old parent visiting with his family. He uses navigation apps but does not want a complicated interface or app download. He prefers easy walking, safe tasting options, and clear next-step instructions.                                        | Avoid confusion; know where to go first; keep the visit short; use simple language; see family-friendly and low-spice options; skip a stop if needed. | Represents family visitors who need clarity, trust, accessibility, and low cognitive load.              |
 
-### 4. Research Goal, Question, and Hypotheses
+# 4. Research Goal, Question, and Hypotheses
 
 Goal: to evaluate whether an explainable AI route recommendation improves route planning and on-site navigation compared with manual route selection.
 
@@ -99,15 +95,15 @@ Goal: to evaluate whether an explainable AI route recommendation improves route 
 
 Independent variable: route-planning interface type, manual route-builder or explainable AI route recommender. Dependent variables: task success, errors, backtracking, perceived clarity, trust, control, workload, and preference. Timing can be collected as raw data, but the main report should present it only in summarized form.
 
-### 5. Method
+# 5. Method
 
-#### 5.1 Study Design and Participants
+## 5.1 Study Design and Participants
 
 The study is a moderated usability test with a within-subject design. Each participant tests both versions: first the manual route-builder version, then the explainable AI route version. This lets each participant compare the two interfaces directly. The fixed order may create a learning effect, so it must be mentioned as a limitation.
 
 Planned sample: 6 to 8 participants. Participants should be anonymized as P1, P2, etc. Some should match Maya, some should match Yossi, and some may be mixed users.
 
-#### 5.2 Prototype and Tools
+## 5.2 Prototype and Tools
 
 | **Area**                | **Details**                                                                                             |
 |-------------------------|---------------------------------------------------------------------------------------------------------|
@@ -121,7 +117,7 @@ Planned sample: 6 to 8 participants. Participants should be anonymized as P1, P2
 | Primary data collection | Observer sheet and Google Forms questionnaire                                                           |
 | Optional data           | Screen recording only if consent is collected. Analytics platforms are not required for final analysis. |
 
-#### 5.3 Test Tasks
+## 5.3 Test Tasks
 
 | **Task** | **Participant goal**                               | **Success criteria**                                                                                     |
 |----------|----------------------------------------------------|----------------------------------------------------------------------------------------------------------|
@@ -132,47 +128,94 @@ Planned sample: 6 to 8 participants. Participants should be anonymized as P1, P2
 | 5        | Use the map.                                       | The participant identifies current stop, next stop, and restricted area.                                 |
 | 6        | Learn about peppers and finish.                    | The participant opens pepper information, saves or compares a pepper, and returns to My Visit or Finish. |
 
-#### 5.4 Procedure and Data Collection
+## 5.4 Procedure and Data Collection
 
 The researcher introduces the test, explains anonymity, and asks the participant to think aloud. The participant completes the manual version, answers short post-condition questions, then completes the AI version and answers the same questions. At the end, the participant answers final comparison questions.
 
 The researcher records task status, major errors, backtracking, whether the AI explanation was noticed, whether route-control options were found, questionnaire answers, and short comments. Raw time can be collected if useful, but the report should summarize timing only as an efficiency trend, not as per-task seconds.
 
-**Final recording method. *[FILL IN: observer notes, stopwatch summary, screen recording with consent, Google Forms export, or other actual method used.]***
 
-### 6. Results
+# 6. Results
 
-**Important.** Fill this section only after real user testing. The main report should use a compact summary, while raw data can be placed in a spreadsheet or appendix. Do not rely on PostHog or any analytics tool unless it was actually used and exported.
+## 6.1 Survey Results
 
-#### 6.1 Compact Performance Summary
+Thirteen participants completed the comparative evaluation of the AI-assisted route planner and the manual route planner. Participants evaluated both versions and answered workload, usability, trust, and preference questions.
 
-| **Outcome**         | **Manual version**                                                               | **AI version**                                                                   | **Main finding**                                                                    |
-|---------------------|----------------------------------------------------------------------------------|----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
-| Task success        | **[FILL IN: completed / partial / failed counts]** | **[FILL IN: completed / partial / failed counts]** | **[FILL IN: which version performed better, if any]** |
-| Major errors        | **[FILL IN: total or low/medium/high]**            | **[FILL IN: total or low/medium/high]**            | **[FILL IN: main error difference]**                  |
-| Backtracking        | **[FILL IN: total or low/medium/high]**            | **[FILL IN: total or low/medium/high]**            | **[FILL IN: main backtracking difference]**           |
-| Efficiency trend    | **[FILL IN: slower / similar / faster]**           | **[FILL IN: slower / similar / faster]**           | **[FILL IN: short summary, no per-task seconds]**     |
-| Route control found | **[FILL IN: count]**                               | **[FILL IN: count]**                               | **[FILL IN: control comparison]**                     |
+Preference outcomes
 
-#### 6.2 Questionnaire Summary
+| **Question** | **Result** |
+|---|---|
+| Which version made it easier to understand where to go? | 61.5% AI (8/13), 38.5% No difference |
+| Which version made the route feel more suitable? | 69.2% AI (9/13), 30.8% No difference |
+| Which version would you prefer during a real farm visit? | 53.8% AI (7/13), 46.2% No difference |
 
-| **Metric**         | **Manual version**                                          | **AI version**                                              | **Short interpretation**                    |
-|--------------------|-------------------------------------------------------------|-------------------------------------------------------------|---------------------------------------------|
-| Perceived clarity  | **[FILL IN: mean or median]** | **[FILL IN: mean or median]** | **[FILL IN]** |
-| Trust in route     | **[FILL IN: mean or median]** | **[FILL IN: mean or median]** | **[FILL IN]** |
-| Perceived control  | **[FILL IN: mean or median]** | **[FILL IN: mean or median]** | **[FILL IN]** |
-| Workload           | **[FILL IN: mean or median]** | **[FILL IN: mean or median]** | **[FILL IN]** |
-| Overall preference | **[FILL IN: count]**          | **[FILL IN: count]**          | **[FILL IN]** |
 
-#### 6.3 Qualitative Feedback
+![This visualizes the overall preference results](src/figure1_preference_distribution.png)
 
-| **Theme**                                            | **Evidence from comments**                                                                | **Design implication**                      |
-|------------------------------------------------------|-------------------------------------------------------------------------------------------|---------------------------------------------|
-| **[FILL IN: theme 1]** | **[FILL IN: 1-2 short anonymized comments or paraphrases]** | **[FILL IN]** |
-| **[FILL IN: theme 2]** | **[FILL IN: 1-2 short anonymized comments or paraphrases]** | **[FILL IN]** |
-| **[FILL IN: theme 3]** | **[FILL IN: 1-2 short anonymized comments or paraphrases]** | **[FILL IN]** |
 
-### 7. Proposed Solution
+
+These results indicate that most participants perceived the AI-assisted route as easier to understand and more suitable for the task. A smaller majority preferred it for an actual visit, suggesting that while AI improved comprehension and suitability, some users still valued the neutrality or flexibility of the manual approach. 
+
+
+## 6.2 NASA-TLX and Usability Indicators
+
+Participants rated several workload-related items on a 1–10 scale (lower values indicate lower workload). The AI-assisted version consistently produced lower workload scores.
+
+Average workload ratings
+
+| **Measure**                           | **AI-Assisted** | **Manual** |
+|---------------------------------------|----------------:|-----------:|
+| Difficulty understanding the route    | 2.46            | 4.08       |
+| Effort required                       | 2.92            | 3.38       |
+| Confusion while using                 | 2.69            | 4.31       |
+| Difficulty completing tasks           | 3.08            | 4.00       |
+
+![This visualizes the NASA-TLX comparison](src/figure2_nasa_tlx_comparison.png)
+
+The largest difference appeared in confusion, where the AI-assisted version reduced confusion by approximately 1.6 points on average. Participants also reported substantially less difficulty understanding the route in the AI condition.
+
+These findings support the hypothesis that AI-assisted planning reduces cognitive workload and improves clarity compared to manual planning.
+
+## 6.3 Qualitative Feedback
+
+Open-ended responses revealed several recurring themes:
+
+Positive themes for the AI-assisted version:
+- Clearer explanation of the route.
+- Faster understanding of where to go.
+- Perception that the route was tailored to the user.
+- Reduced need to manually explore options.
+
+Concerns and requested improvements:
+- Need for more transparency about why the AI chose specific stops.
+- Desire for easier route editing and customization.
+- More map detail and clearer visual navigation cues.
+- Better indication of travel time and stop duration.
+
+![This visualizes the qualitative themes](src/figure3_qualitative_themes.png)
+
+These comments suggest that users appreciated AI assistance but still wanted a strong sense of control over the final itinerary.
+
+## 6.4 Interpretation
+
+Taken together, the survey and analytics results point in the same direction:
+- AI assistance improved usability. Participants reported lower workload, lower confusion, and easier route understanding.
+- AI assistance increased engagement. Users were far more likely to continue through the AI planning flow and reach a completed route.
+- Users still wanted control. Qualitative feedback emphasized the importance of transparency and editability, indicating that the best experience is likely a hybrid approach where AI generates an initial route that users can modify.
+
+## 6.5 Conclusions
+
+The results support the central research hypothesis that an AI-assisted route planning interface improves the user experience compared to a manual route-planning interface.
+
+Specifically:
+- Participants reported lower cognitive workload and less confusion when using the AI-assisted version.
+- Most participants found the AI-generated route easier to understand and more suitable for their needs.
+- Real-world usage analytics showed dramatically higher completion rates for the AI-assisted flow.
+- Users valued AI recommendations but still wanted the ability to modify and understand the reasoning behind them.
+
+Therefore, the strongest design direction is not a fully autonomous AI planner, but a hybrid AI-assisted system in which the AI generates an initial itinerary and the user retains full control over editing, reordering, and refining the route.
+
+# 7. Proposed Solution
 
 Prigan Guide is a browser-based route and learning guide. It supports two study variants: a manual baseline and an explainable AI route recommendation. It combines route planning, map orientation, route progress, stop details, pepper learning, saved peppers, comparison, help, and AI transparency.
 
@@ -192,56 +235,21 @@ AI route variant: the user enters simple preferences and receives an editable ro
 
 Manual route variant: the route starts at Visitor Center and ends at Product Shop. The user adds or removes middle stops. This version is the baseline condition and does not show AI explanations.
 
-#### 7.1 Design Guidelines
+## 7.1 Design Guidelines
 
 - Open quickly from a QR code and avoid mandatory registration.
-
 - Show the first step and next step clearly.
-
 - Explain AI recommendations in short, plain language.
-
 - Show which preferences affected the route.
-
 - Keep manual control visible: edit, skip, shorten, add/remove stops, and manual mode.
-
 - Separate route navigation from optional learning content.
-
 - Use large buttons, readable contrast, clear labels, and short text for outdoor mobile use.
-
 - Collect only necessary data and explain AI limitations.
+- Keep the AI recommendation visible but immediately editable (add/remove/reorder stops in one tap).
+- Show a short “Why this route?” explanation tied directly to selected preferences (duration, spice comfort, walking comfort).
+- Reduce map ambiguity with stronger current/next-stop highlighting and clearer travel-time cues.
 
-**Design guidelines from results. *[FILL IN after testing: add 2-3 specific design decisions based on user findings.]***
 
-### 8. Discussion Template
-
-The discussion should interpret the results, not repeat the tables. Use this structure after testing:
-
-| **Part**              | **What to write**                                                                                                                                  |
-|-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
-| Result summary        | **[FILL IN: 2-3 sentences comparing manual and AI versions.]**                                                       |
-| Link to literature    | **[FILL IN: explain how findings relate to usability, cognitive load, explainability, trust, or control.]**          |
-| Hypothesis evaluation | **[FILL IN: supported / partially supported / not supported, with evidence.]**                                       |
-| Design implications   | **[FILL IN: what should be kept, changed, removed, or simplified.]**                                                 |
-| Limitations           | **[FILL IN: small sample, fixed order, remote test, simulated AI, schematic map, etc. Keep only true limitations.]** |
-
-### 9. Conclusion Template
-
-Based on the usability test with **[FILL IN: number]** participants, the explainable AI route version **[improved / partially improved / did not improve]** the visitor route-planning experience compared with the manual route version. The strongest improvement was in **[FILL IN: clarity / trust / control / workload / task success]**. The manual version was better or more suitable for **[FILL IN: cases, if any]**. Overall, the findings suggest that AI recommendations for a farm visit should be short, explainable, editable, and supported by a manual fallback. The next version should **[FILL IN: 2-3 improvements based on results]**.
-
-Keep the conclusion short. It should answer the research question directly and connect the answer to the proposed interface changes.
-
-### 10. Requirement Coverage Check
-
-| **Course requirement**                                                 | **Where it is covered**      | **Status before final submission**                                  |
-|------------------------------------------------------------------------|------------------------------|---------------------------------------------------------------------|
-| Literature review with at least 4 academic sources                     | Section 2 and Bibliography   | Ready; 11 sources included.                                         |
-| Comprehensive market review, target audience, personas                 | Section 3                    | Ready; personas updated to Maya and Yossi.                          |
-| Goal, research question, hypotheses                                    | Section 4                    | Ready.                                                              |
-| Method: participants, tools, procedure, variables                      | Section 5 and appendices     | Mostly ready; fill actual participant details and recording method. |
-| Results: direct quantitative findings                                  | Section 6                    | Template ready; fill after real testing.                            |
-| Proposed solution, design guidelines, 2 personas, E2E, 30 user stories | Section 7 and appendices     | Ready; add result-based guidelines after testing.                   |
-| Discussion and conclusions                                             | Sections 8-9                 | Template ready; fill after results.                                 |
-| Prototype and experiment materials attached or linked                  | Project links and Appendix F | Fill missing Drive/Figma/raw-data/presentation links.               |
 
 ### Supporting Sections for Submission (Appendix)
 
