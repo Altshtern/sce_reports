@@ -251,11 +251,11 @@ Manual route variant: the route starts at Visitor Center and ends at Product Sho
 
 
 
-### Supporting Sections for Submission (Appendix)
+# Supporting Sections for Submission (Appendix)
 
 These sections support the main report. They can be submitted after the five-page article body, as allowed by the course instructions.
 
-### A. Literature Source Mapping
+## A. Literature Source Mapping
 
 | **Source**              | **Type**                     | **Use in this project**                                                        |
 |-------------------------|------------------------------|--------------------------------------------------------------------------------|
@@ -271,7 +271,7 @@ These sections support the main report. They can be submitted after the five-pag
 | Almeshari et al. (2020) | Peer-reviewed article        | Supports different guide needs for different visitor personas.                 |
 | Wang et al. (2025)      | Peer-reviewed article        | Supports ease of use, trust, and interactivity in heritage/tourism wayfinding. |
 
-### B. E2E Scenarios
+## B. E2E Scenarios
 
 | **Scenario**                                | **Flow**                                                                                                                                                                                                                                                                            |
 |---------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -279,7 +279,7 @@ These sections support the main report. They can be submitted after the five-pag
 | Scenario 2: Yossi - Family Visit            | Yossi opens the guide without installing an app. He chooses family-friendly mode, mild tasting, and easy walking. He checks the first stop, opens the map, skips one optional stop, and finishes the visit with his family.                                                         |
 | Scenario 3: Manual Route                    | A visitor does not want an AI recommendation. The visitor opens the manual version, starts from Visitor Center, adds stops between start and finish, removes one stop, and finishes at the Product Shop. The system shows route order and estimated duration but no AI explanation. |
 
-### C. User Stories
+## C. User Stories
 
 | **ID** | **User story**                                                                                             | **Area**      |
 |--------|------------------------------------------------------------------------------------------------------------|---------------|
@@ -314,33 +314,8 @@ These sections support the main report. They can be submitted after the five-pag
 | 29     | As a visitor, I want large buttons and strong contrast, so that the guide is usable outdoors.              | Accessibility |
 | 30     | As a visitor, I want to understand how AI works and what its limits are, so that I can use it responsibly. | AI trust      |
 
-### D. Participant and Observer Templates
 
-Use anonymous IDs only. Replace persona fit with Maya, Yossi, or Mixed.
-
-| **Participant** | **Age**                                     | **Persona fit**                                          | **Experience and notes**                                                                                |
-|-----------------|---------------------------------------------|----------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
-| P1              | **[FILL IN]** | **[Maya / Yossi / Mixed]** | **Maps: [FILL IN]. AI recommendations: [FILL IN]. Notes: [FILL IN].** |
-| P2              | **[FILL IN]** | **[Maya / Yossi / Mixed]** | **Maps: [FILL IN]. AI recommendations: [FILL IN]. Notes: [FILL IN].** |
-| P3              | **[FILL IN]** | **[Maya / Yossi / Mixed]** | **Maps: [FILL IN]. AI recommendations: [FILL IN]. Notes: [FILL IN].** |
-| P4              | **[FILL IN]** | **[Maya / Yossi / Mixed]** | **Maps: [FILL IN]. AI recommendations: [FILL IN]. Notes: [FILL IN].** |
-| P5              | **[FILL IN]** | **[Maya / Yossi / Mixed]** | **Maps: [FILL IN]. AI recommendations: [FILL IN]. Notes: [FILL IN].** |
-| P6              | **[FILL IN]** | **[Maya / Yossi / Mixed]** | **Maps: [FILL IN]. AI recommendations: [FILL IN]. Notes: [FILL IN].** |
-| P7              | **[FILL IN]** | **[Maya / Yossi / Mixed]** | **Maps: [FILL IN]. AI recommendations: [FILL IN]. Notes: [FILL IN].** |
-| P8              | **[FILL IN]** | **[Maya / Yossi / Mixed]** | **Maps: [FILL IN]. AI recommendations: [FILL IN]. Notes: [FILL IN].** |
-
-Observer sheet. Use this during the test. Raw timing can be collected separately, but the report should use summarized efficiency only.
-
-| **Task**                 | **Status**                                                   | **Effort / time summary**                                        | **Errors or backtracking**                  | **Notes**                                   |
-|--------------------------|--------------------------------------------------------------|------------------------------------------------------------------|---------------------------------------------|---------------------------------------------|
-| Start visit              | **[Success / Partial / Fail]** | **[Low / Medium / High or notes]** | **[FILL IN]** | **[FILL IN]** |
-| Create route             | **[Success / Partial / Fail]** | **[Low / Medium / High or notes]** | **[FILL IN]** | **[FILL IN]** |
-| Understand route         | **[Success / Partial / Fail]** | **[Low / Medium / High or notes]** | **[FILL IN]** | **[FILL IN]** |
-| Control recommendation   | **[Success / Partial / Fail]** | **[Low / Medium / High or notes]** | **[FILL IN]** | **[FILL IN]** |
-| Use map                  | **[Success / Partial / Fail]** | **[Low / Medium / High or notes]** | **[FILL IN]** | **[FILL IN]** |
-| Pepper learning / finish | **[Success / Partial / Fail]** | **[Low / Medium / High or notes]** | **[FILL IN]** | **[FILL IN]** |
-
-### E. Questionnaire Summary Template
+## D. Questionnaire Summary Template
 
 Use a simple 1-5 scale unless the final Google Form uses a different scale. Keep the same questions for manual and AI versions when possible.
 
@@ -353,7 +328,7 @@ Use a simple 1-5 scale unless the final Google Form uses a different scale. Keep
 | Preference        | Which version would you prefer during a real farm visit? | Manual / AI / No preference |
 | Open comment      | What confused you or helped you most?                    | Short text                  |
 
-### F. Experiment Materials Checklist
+## E. Experiment Materials Checklist
 
 - Final prototype links: AI and manual versions.
 
@@ -372,7 +347,7 @@ Use a simple 1-5 scale unless the final Google Form uses a different scale. Keep
 - **[FILL IN: Google Drive folder link containing the final experiment materials.]**
 
 
-### H. Bibliography
+## F. Bibliography
 
 - Almeshari, M., Dowell, J., & Nyhan, J. (2020). Museum mobile guide preferences for different visitor personas. Journal on Computing and Cultural Heritage, 14(1), Article 9. https://doi.org/10.1145/3423186
 
